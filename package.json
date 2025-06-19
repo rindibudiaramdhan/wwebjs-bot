@@ -1,0 +1,16 @@
+{
+  "name": "wwebjs-bot",
+  "version": "1.0.0",
+  "description": "Whatsapp bot",
+  "license": "ISC",
+  "author": "budiaramdhanrindi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.30.0"
+  }
+}
