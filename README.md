@@ -4,6 +4,10 @@
 
 # Installation
 - Install node min. v18+
-- run `node main.js`
-- Scan QR Code from your WA that dedicated to be a bot.
-- Try send to dedicated WA Bot number `!ping`. If it reply `pong`, that's a success.
+- run `node index.js`
+- Contoh curl untuk test
+```
+curl -X POST http://localhost:3000/send \
+  -H "Content-Type: application/json" \
+  -d '{"number": "6281234567890", "message": "Halo dari API"}'
+```
