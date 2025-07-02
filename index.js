@@ -23,7 +23,7 @@ client.on('ready', () => {
 client.initialize();
 
 // === API Endpoint ===
-app.post('/send', async (req, res) => {
+app.post('/send-otp', async (req, res) => {
     const { number, message } = req.body;
 
     // Pastikan format nomor: 62xxxxxxxxxx@c.us
